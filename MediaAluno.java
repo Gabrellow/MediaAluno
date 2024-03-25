@@ -13,8 +13,8 @@ public class MediaAluno {
         double V3 = s.nextDouble();
         double V4 = s.nextDouble();
 
-        double media = ((V1*2) + (V2*3) + (V3*4) + (V4*1)) / 10; // Valor da soma das notas + pelo peso e
-        // por final divido pela soma dos pesos
+        double media = ((V1*2) + (V2*3) + (V3*4) + (V4*1)) / 10; // Valor da nota * pelo peso e somar todos valores
+        // por final divir pela soma dos pesos
 
         media = Math.floor(media * 10) / 10; // arredondar para baixo
         System.out.println("Media: " + String.format("%.1f",media));
